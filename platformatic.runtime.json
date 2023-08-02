@@ -1,0 +1,12 @@
+{
+  "$schema": "https://platformatic.dev/schemas/v0.33.1/runtime",
+  "entrypoint": "composer-service",
+  "allowCycles": false,
+  "hotReload": true,
+  "autoload": {
+    "path": "services",
+    "exclude": [
+      "docs"
+    ]
+  }
+}

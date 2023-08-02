@@ -1,0 +1,25 @@
+{
+  "name": "@demo/website-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "platformatic start",
+    "clean": "rm -fr ./dist",
+    "build": "platformatic compile",
+    "migrate": "platformatic db migrations apply"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "fastify": "^4.21.0",
+    "typescript": "~5.1.6"
+  },
+  "dependencies": {
+    "@platformatic/db": "^0.33.1",
+    "@platformatic/sql-graphql": "^0.33.1",
+    "@platformatic/sql-mapper": "^0.33.1",
+    "platformatic": "^0.33.1"
+  },
+  "engines": {
+    "node": "^18.8.0"
+  }
+}
